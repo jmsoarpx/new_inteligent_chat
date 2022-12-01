@@ -15,9 +15,9 @@
 		"isolatedModules": false,
 		"jsx": "preserve",
 		"rootDir": "src",
-		"baseUrl": "./src",
+		"baseUrl": "src",
 		"paths": {
-			"@/*": ["./*"]
+			"@/*": ["*"]
 		}
 	},
 	"include": ["**/*.ts", "**/*.tsx"],
