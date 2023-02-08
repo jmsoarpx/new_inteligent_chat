@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "webpack-dev-server --open",
     "lint": "eslint .",
     "lint:fix": "npm run lint --fix",
     "test": "jest --passWithNoTests --no-cache --runInBand",
@@ -21,6 +22,7 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "clean-webpack-plugin": "^4.0.0",
     "eslint": "^8.28.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-cypress": "^2.12.1",
